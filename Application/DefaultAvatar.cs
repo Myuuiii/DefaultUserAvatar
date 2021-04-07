@@ -6,7 +6,7 @@ namespace DefaultUserAvatar
     public class DefaultAvatar
     {
         /// <summary>
-        /// Generate a new avatar from the user's first an last name
+        /// Generate a new avatar from the user's first and last name
         /// </summary>
         /// <param name="firstName">First name of the user</param>
         /// <param name="lastName">Last name of the user</param>
