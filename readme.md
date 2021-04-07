@@ -4,6 +4,12 @@ This is just a random piece of code I wrote for an application that needs to gen
 <br>
 <br>
 
+# Future
+In the future I want to make changes to this code so you can easily change the size of the image that is generated without having to redefine where to text should be located manually
+
+<br>
+<br>
+
 # Featured
 This piece of code is used in the Tercera-GO Application by [Tercera](https://tercera.nl/) to generate default user avatars. 
 
