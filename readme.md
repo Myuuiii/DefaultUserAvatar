@@ -1,3 +1,5 @@
+<img src="https://avatars.githubusercontent.com/u/37182516?v=4" width="250px"/>
+
 # Default User Avatar 
 This is just a random piece of code I wrote for an application that needs to generate default user avatars based on their name. It will use the first character from the first argument and the first character from the second argument. It will return a base64 string which could be used to store in the database. You also have the option to save the file locally.
 
@@ -40,6 +42,7 @@ For this you will call the same method. If you want to save the file you add the
 ```c#
 String Base64ImageString = DefaultAvatar.GenerateAvatar("Myu", "Developer", "./myu1.png");
 ```
+![Myu1](https://raw.githubusercontent.com/mutedev/DefaultUserAvatar/main/myu1.png)
 
 <br>
 
@@ -48,6 +51,7 @@ You can give the image a custom background color, the default is `rgb(6, 39, 70)
 ```c#
 DefaultAvatar.GenerateAvatar("Myu", "Developer", "./myu2.png", Color.FromArgb(200, 10, 100));
 ```
+![Myu2](https://raw.githubusercontent.com/mutedev/DefaultUserAvatar/main/myu2.png)
 
 <br>
 
@@ -56,7 +60,8 @@ You can also customize the color of the text that is in the image by providing a
 ```c#
 DefaultAvatar.GenerateAvatar("Myu", "Developer", "./myu3.png", Color.White, Brushes.HotPink);
 ```
+![Myu3](https://raw.githubusercontent.com/mutedev/DefaultUserAvatar/main/myu1.png)
 
 <br>
 
-### The images that are generated can be found in the rot folder of this repository
+### The images that are generated can be found in the root folder of this repository
