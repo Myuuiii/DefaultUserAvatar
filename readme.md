@@ -1,5 +1,3 @@
-<img src="https://avatars.githubusercontent.com/u/37182516?v=4" width="250px"/>
-
 # Default User Avatar 
 This is just a random piece of code I wrote for an application that needs to generate default user avatars based on their name. It will use the first character from the first argument and the first character from the second argument. It will return a base64 string which could be used to store in the database. You also have the option to save the file locally.
 
