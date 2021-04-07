@@ -60,7 +60,7 @@ You can also customize the color of the text that is in the image by providing a
 ```c#
 DefaultAvatar.GenerateAvatar("Myu", "Developer", "./myu3.png", Color.White, Brushes.HotPink);
 ```
-![Myu3](https://raw.githubusercontent.com/mutedev/DefaultUserAvatar/main/myu1.png)
+![Myu3](https://raw.githubusercontent.com/mutedev/DefaultUserAvatar/main/myu3.png)
 
 <br>
 
